@@ -1,0 +1,28 @@
+{
+    "name": "@utc/package-a",
+    "private": true,
+    "version": "1.0.0",
+    "description": "Package a for UTC",
+    "type": "module",
+    "exports": {
+        "./enums": {
+            "import": "./dist/enums.js",
+            "require": "./dist/enums.js",
+            "types": "./dist/enums.d.ts"
+        }
+    },
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "rm -rf dist && tsc --build ./tsconfig.json"
+    },
+    "dependencies": {
+        "dayjs": "^1.11.12",
+        "zod": "^3.23.8"
+    },
+    "devDependencies": {
+        "tsx": "^4.11.0",
+        "typescript": "^5.5.4"
+    }
+}

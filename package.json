@@ -1,0 +1,25 @@
+{
+    "name": "expo-yarn-monorepo",
+    "version": "1.0.0",
+    "repository": "https://github.com/mikeyim337/expo-yarn-monorepo.git",
+    "author": "Mike Yim",
+    "license": "UNLICENSED",
+    "private": true,
+    "workspaces": [
+        "apps/**/*",
+        "libs/**/*"
+    ],
+    "resolutions": {
+        "axios": "0.26.1"
+    },
+    "devDependencies": {
+        "@types/node": "20.12.13",
+        "eslint-plugin-isaacscript": "^3.12.2",
+        "import": "^0.0.6",
+        "prettier": "^3.3.3",
+        "typescript": "~5.3.3"
+    },
+    "dependencies": {
+        "@tailwindcss/forms": "^0.5.7"
+    }
+}
