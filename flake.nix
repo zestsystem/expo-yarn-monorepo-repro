@@ -25,6 +25,7 @@
             # Node
             nodejs_20
             yarn-berry
+            nodePackages.eas-cli
           ];
         };
       };
