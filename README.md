@@ -6,6 +6,12 @@ Install packages
 yarn install
 ```
 
+Make sure you build package-a
+```sh
+cd libs/package-a
+yarn build
+```
+
 To start and verify basic app working
 
 ```sh
