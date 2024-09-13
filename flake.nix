@@ -24,7 +24,7 @@
           buildInputs = with pkgs; [
             # Node
             nodejs_20
-            yarn-berry
+            bun
             nodePackages.eas-cli
           ];
         };
