@@ -52,7 +52,7 @@
             cocoapods
             # Node
             nodejs_20
-            yarn-berry
+            corepack
             nodePackages.eas-cli
           ];
         };
