@@ -25,6 +25,8 @@
             # Node
             nodejs_20
             bun
+            fastlane
+            cocoapods
             nodePackages.eas-cli
           ];
         };
