@@ -1,22 +1,22 @@
-# expo-yarn-monorepo
+# expo-pnpm-monorepo
 
 Install packages
 
 ```sh
-yarn install
+pnpm install
 ```
 
 Make sure you build package-a
 ```sh
 cd libs/package-a
-yarn build
+pnpm build
 ```
 
 To start and verify basic app working
 
 ```sh
 cd apps/mobile-sample
-yarn start
+pnpm start
 ```
 
 You will get the message "Welcome! A"
