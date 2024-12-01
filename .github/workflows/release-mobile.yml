@@ -31,6 +31,7 @@ jobs:
     runs-on: ${{github.event.inputs.os}}
     env:
       DOPPLER_CONFIG: ${{ github.event.inputs.profile == 'production' && 'prd' || 'stg' }}
+      EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
     steps:
       - name: git checkout
         uses: actions/checkout@v3
