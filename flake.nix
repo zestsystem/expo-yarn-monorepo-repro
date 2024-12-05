@@ -55,6 +55,10 @@
             corepack
             nodePackages.eas-cli
           ];
+
+          shellHook = ''
+            export DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer
+          '';
         };
       };
     });
